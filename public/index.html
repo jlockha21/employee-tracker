@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Tracker</title>
+    <link rel="stylesheet" href="style.css"> <!-- Updated path to style.css -->
+</head>
+
+<body>
+    <header>
+        <h1>Employee Tracker</h1>
+    </header>
+
+    <main>
+
+    <div id="content-container"></div>
+        <h2>Add Employee</h2>
+        <!-- Form to add a new employee -->
+        <form id="employee-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department" required>
+
+            <label for="role">Role:</label>
+            <input type="text" id="role" name="role" required>
+
+            <label for="salary">Salary:</label>
+            <input type="number" id="salary" name="salary" required>
+
+            <button type="submit">Add Employee</button>
+        </form>
+
+        <!-- Error message section -->
+        <div id="error-message" style="color: red; display: none;">
+            <!-- This will display error messages to the user -->
+        </div>
+
+        <h2>Employee List</h2>
+        <div class="table-container"></div>
+            <!-- Employee list table -->
+            <table id="employee-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Department</th>
+                        <th>Role</th>
+                        <th>Salary</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Employee rows will be populated here by app.js -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

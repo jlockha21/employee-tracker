@@ -1,0 +1,166 @@
+/* Basic styling */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: "Libre Baskerville", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px; /* Padding around the main div */
+    background-color: white; /* White background */
+    margin: 20px auto; /* Center main div on the page */
+    width: 80%; /* Width of the main div */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+#content-container {
+    width: 100%; /* Content container takes up full width of main div */
+    padding: 20px; /* Add padding inside the content container */
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the headings */
+h2 {
+    text-align: center; /* Center-align the headings */
+    margin-top: -5px; /* Add some space above the headings */
+    margin-bottom: 10px; /* Add some space below the headings */
+}
+
+/* Style input fields */
+#employee-form input {
+    padding: 8px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light grey background color */
+    width: 100%; /* Set width to 100% to fit the form container */
+    box-sizing: border-box; /* Include padding and border in width */
+    font-size: 16px; /* Font size */
+}
+
+/* Focus effect for input fields */
+#employee-form input:focus {
+    border-color: #4caf50; /* Green border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Style the form container */
+#employee-form {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange form elements in a column */
+    align-items: center; /* Center-align form elements */
+    margin-top: 20px; /* Add space above the form */
+    width: 50%; /* Set width of the form container to 50% */
+    margin: 0 auto; /* Center the form container on the page */
+    gap: 10px; /* Add spacing between form elements */
+}
+/* Style the Add Employee button */
+#employee-form button {
+    padding: 10px 20px; /* Padding */
+    width: 200px; /* Set a fixed width of 200px */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #4caf50; /* Green background color */
+    color: white; /* White text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Transition for hover effect */
+    margin-top: 20px; /* Add space above the button */
+    margin-bottom: 20px;
+}
+
+/* Hover effect for the Add Employee button */
+#employee-form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style the delete buttons */
+.delete-btn {
+    padding: 5px 10px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 3px; /* Rounded corners */
+    background-color: #f44336; /* Red background color */
+    color: white; /* White text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+/* Hover effect for delete buttons */
+.delete-btn:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Style the table container */
+.table-container {
+    width: 100%; /* Set the width of the container to 100% */
+    overflow-x: auto; /* Allow horizontal scrolling if the table overflows */
+    margin: 0 auto; /* Center the container on the page */
+}
+
+/* Keep existing styles for the table */
+#employee-table {
+    width: 100%; /* Allow the table to take up the full width of the container */
+    border-collapse: collapse; /* Collapse borders between cells */
+    margin-top: 20px; /* Add space at the top */
+}
+
+/* Style table headers */
+#employee-table th {
+    border: 1px solid #ccc; /* Add border to headers */
+    padding: 10px; /* Add padding */
+    text-align: center; /* Center-align text in headers */
+    background-color: #f2f2f2; /* Light grey background color */
+}
+
+/* Style table cells */
+#employee-table td {
+    border: 1px solid #ccc; /* Add border to cells */
+    padding: 10px; /* Add padding */
+    text-align: center; /* Center-align text in cells */
+}
+
+/* Add zebra striping to table rows */
+#employee-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light grey background for even rows */
+}
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    /* Adjust the table for smaller screens */
+    #employee-table {
+        font-size: 14px; /* Reduce font size slightly for better fit */
+    }
+    
+    /* Adjust table cell padding for smaller screens */
+    #employee-table th, #employee-table td {
+        padding: 8px;
+    }
+
+    /* Allow horizontal scrolling if the table overflows */
+    #employee-table {
+        display: block;
+        overflow-x: auto;
+    }
+}
+
