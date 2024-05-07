@@ -1,29 +1,25 @@
-  # Employee Tracker
+# Employee Tracker
 
-  https://employeedb-c8e2445282af.herokuapp.com
- 
-  ## Table of Contents
-  * [Description](#description)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contributing Parties](#contributing-parties)
-  * [Questions](#questions)
+[Application Link](https://employeedb-c8e2445282af.herokuapp.com)
 
-  ## Description
-  AS A… employeer with many workers to monitor,
-  I WANT… to be able to keep track of who does what in the company,
-  SO THAT… iam able to pay people accurate salaries.
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing Parties](#contributing-parties)
+* [Questions](#questions)
 
-  ## Installation
-  There is no instalation required, this is a web application that you are able to use via the internet.
+## Description
+AS AN employer with many workers to monitor, I WANT to be able to keep track of who does what in the company, SO THAT I can pay people accurate salaries.
 
-  ## Usage
-  This application will allow the user to be able to keep a chart of which employees work for them, what department they work for, what thier postion is within that   department, and how much money that employee is making in salary per year.
+## Installation
+No installation is required. This is a web application that you can use directly via the internet.
 
-  ## Contributing Parties
-  Jordan Lockhart
-  (LinkedIn) -- https://www.linkedin.com/in/jordan-lockhart-6b14a7249/
+## Usage
+This application allows the user to maintain a record of employees, including which department they work in, their position within that department, and their annual salary.
 
-  ## Questions
-  If you have any questions about the repo, open an issue or contact me directly at sd. You can find more of my work at (https://github.com/jlockha21).
-  
+## Contributing Parties
+Jordan Lockhart (LinkedIn) -- [LinkedIn profile](https://www.linkedin.com/in/jordan-lockhart-6b14a7249/).
+
+## Questions
+If you have any questions about the repository, open an issue or contact me directly. You can find more of my work at [GitHub](https://github.com/jlockha21).
